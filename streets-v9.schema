@@ -1,0 +1,48 @@
+#admin
+  [admin_level]
+  [disputed]
+  [maritime]
+#aeroway
+  [type]
+#airport_label
+  [scalerank]
+#barrier_line
+  [class]
+#building
+  [underground]
+#country_label
+  [scalerank]
+#landuse
+  [class]
+#landuse_overlay
+  [class]
+#marine_label
+  [labelrank]
+#place_label
+  [localrank]
+  [scalerank]
+  [type]
+#poi_label
+  [localrank]
+  [maki]
+  [scalerank]
+#rail_station_label
+  [maki]
+#road
+  [class]
+  [layer]
+  [oneway]
+  [structure]
+  [type]
+#road_label
+  [class]
+  [reflen]
+  [shield]
+#state_label
+  [area]
+#water_label
+  [area]
+#waterway
+  [class]
+#waterway_label
+  [class]

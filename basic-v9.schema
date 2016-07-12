@@ -1,0 +1,14 @@
+#admin
+#country_label
+#landuse
+  [class]
+#landuse_overlay
+  [class]
+#place_label
+  [type]
+#poi_label
+#road
+#road_label
+  [class]
+#waterway
+  [class]
