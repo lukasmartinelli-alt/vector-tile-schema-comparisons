@@ -19,6 +19,86 @@ Compare vector tile schemas of different style and TileJSON specs with OSM2Vecto
 
 ## Comparisons
 
+**mapbox-streets-v7 vs osm2vectortiles-v3**
+
+```diff
+4d3
+<   [iso_3166_1]
+8,18d6
+< #airport_label
+<   [maki]
+<   [name]
+<   [name_de]
+<   [name_en]
+<   [name_es]
+<   [name_fr]
+<   [name_ru]
+<   [name_zh]
+<   [ref]
+<   [scalerank]
+22d9
+<   [underground]
+32d18
+<   [parent]
+34d19
+<   [type]
+36c21
+<   [house_num]
+---
+>   [addr]
+44,62c29
+<   [labelrank]
+<   [name]
+<   [name_de]
+<   [name_en]
+<   [name_es]
+<   [name_fr]
+<   [name_ru]
+<   [name_zh]
+<   [placement]
+< #motorway_junction
+<   [class]
+<   [name]
+<   [ref]
+<   [reflen]
+<   [type]
+< #mountain_peak_label
+<   [elevation_ft]
+<   [elevation_m]
+<   [maki]
+---
+>   [scalerank]
+72d38
+<   [ldir]
+96,105d61
+< #rail_station_label
+<   [maki]
+<   [name]
+<   [name_de]
+<   [name_en]
+<   [name_es]
+<   [name_fr]
+<   [name_ru]
+<   [name_zh]
+<   [network]
+108d63
+<   [layer]
+114,115d68
+<   [iso_3166_2]
+<   [len]
+126d78
+<   [shield]
+129c81
+<   [area]
+---
+>   [scalerank]
+138c90
+<   [area]
+---
+>   [scalerank]
+
+```
+
 **mapbox-streets-v7 vs osm2vectortiles-v2**
 
 ```diff
