@@ -1,0 +1,49 @@
+#admin
+  [admin_level]
+  [disputed]
+  [maritime]
+  [osm_id]
+#aeroway
+  [osm_id]
+  [type]
+#building
+  [osm_id]
+#country_label
+  [code]
+  [name_en]
+  [osm_id]
+  [scalerank]
+#landuse
+  [class]
+  [osm_id]
+  [way_area]
+  [z_order]
+#place_label
+  [ldir]
+  [localrank]
+  [name_en]
+  [osm_id]
+  [type]
+#poi_label
+  [localrank]
+  [maki]
+  [name]
+  [name_en]
+  [osm_id]
+  [scalerank]
+#road
+  [class]
+  [is]
+  [osm_id]
+#road_label
+  [len]
+  [name_en]
+  [osm_id]
+  [ref]
+  [reflen]
+  [shield]
+#water
+  [osm_id]
+#waterway
+  [class]
+  [osm_id]
